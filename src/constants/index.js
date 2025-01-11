@@ -148,15 +148,11 @@ export const testimonials = [
 export const footerContact = [
   {
     id: 1,
-    text: "Bright future English medium school Khadki",
+    text: "गट नं 982, पुणे - सोलापूर हायवे लगत, लक्ष्मी नारायण लॉन्स पाठीमागे खडकी, ता. दौड, जि. पुणे, पुणे - 413130",
   },
   {
     id: 2,
-    text: "Tal. Daund",
-  },
-  {
-    id: 3,
-    text: "413130",
+    text: "Group No 982, Pune - Solapur Highway , Behind Laxmi Narayan Lawns Khadki, Tal.Daund, Dist.Pune, Pune-413130",
   },
 ];
 
