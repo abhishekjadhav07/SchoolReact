@@ -33,14 +33,7 @@ export const navLinks = [
     id: "Facilities",
     link: "facility",
   },
-  {
-    id: "Programs",
-    link: "programs",
-  },
-  {
-    id: "Contact Us",
-    link: "contact",
-  },
+
   {
     id: "Admission",
     link: "apply",

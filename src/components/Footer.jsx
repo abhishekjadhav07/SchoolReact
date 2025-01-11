@@ -48,6 +48,7 @@ const Footer = () => {
         {footerContact.map((contact) => (
           <ul key={contact.id}>
             <li>{contact.text}</li>
+            <br />
           </ul>
         ))}
         <div className="contNum">

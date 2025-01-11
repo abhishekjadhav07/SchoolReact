@@ -30,6 +30,7 @@ body {
 
 .navbar {
   padding: 10px;
+  border: 3px solid #000;
 }
 
 .navbar label {
@@ -192,7 +193,7 @@ body {
 /* Constant styles */
 .content {
   margin-top: 40px;
-  border: 2px solid #000;
+  border: 1px solid #000;
 }
 
 .content h1 {

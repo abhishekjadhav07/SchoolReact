@@ -1,8 +1,8 @@
 //rrd imports
-import { 
-  createBrowserRouter, 
-  createRoutesFromElements, 
-  Route, 
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
   RouterProvider,
 } from "react-router-dom";
 
@@ -17,7 +17,9 @@ import About from "./routes/About";
 import Facility from "./routes/Facility";
 import Admission from "./routes/Admission";
 import Contact from "./routes/Contact";
-import UndergraduatePrograms, { programsLoader } from "./routes/UndergraduatePrograms";
+import UndergraduatePrograms, {
+  programsLoader,
+} from "./routes/UndergraduatePrograms";
 import ProgramDetails, { programDetailsLoader } from "./routes/ProgramDetails";
 
 //layout import
@@ -30,19 +32,22 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="facility" element={<Facility />} />
-      <Route path="programs" element={<ProgramLayout />} errorElement={<ProgramError />}>
-        <Route 
+      <Route
+        path="programs"
+        element={<ProgramLayout />}
+        errorElement={<ProgramError />}
+      >
+        <Route
           index
-          element={<UndergraduatePrograms />} 
+          element={<UndergraduatePrograms />}
           loader={programsLoader}
         />
-        <Route 
-          path=":id" 
+        <Route
+          path=":id"
           element={<ProgramDetails />}
           loader={programDetailsLoader}
         />
       </Route>
-      <Route path="contact" element={<Contact />} />
       <Route path="apply" element={<Admission />} />
       <Route path="*" element={<Error />} />
     </Route>
@@ -50,9 +55,7 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
-  return ( 
-    <RouterProvider router={router} />
-  );
-}
- 
+  return <RouterProvider router={router} />;
+};
+
 export default App;

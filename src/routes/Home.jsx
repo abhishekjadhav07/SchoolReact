@@ -7,6 +7,7 @@ import Testimonials from "../components/Testimonials";
 import WhySchool from "../components/WhySchool";
 import CarouselComponent from "../components/CarouselComponent";
 import CarouselVideo from "../components/CarouselComponent1";
+import SocialCarousel from "../components/SocialCarousel";
 const Home = () => {
   return (
     <>
@@ -36,7 +37,7 @@ const Home = () => {
 
       <CarouselComponent />
 
-      {/* <Social Activities> */}
+      <SocialCarousel />
 
       <WhySchool />
       {/* <Testimonials /> */}
