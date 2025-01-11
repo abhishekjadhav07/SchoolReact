@@ -29,10 +29,14 @@ const Home = () => {
         </NavLink>
       </div>
       {/* <MissionVision /> */}
-      {/* <CarouselComponent1 /> */}
 
       <CarouselVideo />
+
+      {/* <Educational Photos> */}
+
       <CarouselComponent />
+
+      {/* <Social Activities> */}
 
       <WhySchool />
       {/* <Testimonials /> */}

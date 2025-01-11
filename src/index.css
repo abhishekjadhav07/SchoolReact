@@ -23,6 +23,7 @@
 }
 body {
   overflow-x: hidden;
+  background-color: #efffe2;
 }
 
 /* Navbar */
@@ -191,6 +192,7 @@ body {
 /* Constant styles */
 .content {
   margin-top: 40px;
+  border: 2px solid #000;
 }
 
 .content h1 {
