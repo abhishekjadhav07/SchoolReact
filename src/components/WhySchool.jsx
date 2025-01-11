@@ -8,7 +8,7 @@ const WhySchool = () => {
         {whySchool.map((reason) => (
           <div className="reason" key={reason.id}>
             <div className="icon">{reason.icon}</div>
-            <h2>{reason.title}</h2>
+            <h2 style={{ color: "black" }}>{reason.title}</h2>
             <p>{reason.reason}</p>
           </div>
         ))}
