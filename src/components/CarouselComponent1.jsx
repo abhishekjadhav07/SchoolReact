@@ -1,18 +1,21 @@
 import event1 from "../videos/video1.mp4";
+import event2 from "../videos/2.mp4";
+import event3 from "../videos/3.mp4";
+
 import CardSlider1 from "./CardSlider1";
 
 const cards1 = [
   {
-    title: "School Video",
+    title: "",
+    video: event3,
+  },
+  {
+    title: "Science Exhibition 2024",
     video: event1,
   },
   {
     title: "School Video",
-    video: event1,
-  },
-  {
-    title: "School Video",
-    video: event1,
+    video: event2,
   },
 ];
 
