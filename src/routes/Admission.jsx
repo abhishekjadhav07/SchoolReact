@@ -10,9 +10,9 @@ const Admission = () => {
       <div className="pages admission">
         <h2 className="title">Admission</h2>
       </div>
-      <AdmissionInfo />
-      <AdMoreInfo />
-      <ApplyNow />
+      {/* <AdmissionInfo /> */}
+      {/* <AdMoreInfo />
+      <ApplyNow /> */}
       <Footer />
     </>
   )
